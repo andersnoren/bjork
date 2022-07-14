@@ -362,6 +362,13 @@ ol.wp-block-comment-template {
 	margin: 0;
 }
 
+/* Block: Post Featured Image ---------------- */
+
+.wp-block-post-featured-image img {
+	border-radius: 8px;
+	display: block;
+}
+
 /* Block: Post Navigation -------------------- */
 
 .post-navigation-link-previous a:before { content: "← "; }

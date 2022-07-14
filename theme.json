@@ -221,16 +221,17 @@
 			},
 			"typography": {
 				"letter-spacing": {
-					"body": "-0.011em",
-					"heading": "-0.022em",
-					"gigantic": "-0.033em",
+					"body": "-0.01em",
+					"heading": "-0.02em",
+					"gigantic": "-0.03em",
 					"uppercase": "0"
 				},
 				"line-height": {
-					"body": "calc( 1.5em )",
+					"body": "1.5em",
 					"headings": {
 						"gigantic": 1.05,
-						"large": 1.3
+						"large": 1.15,
+						"small": 1.25
 					}
 				}
 			}
@@ -413,17 +414,6 @@
 					"fontSize": "var( --wp--preset--font-size--small )"
 				}
 			},
-			"core/quote": {
-				"border": {
-					"width": "1px",
-					"color": "var(--wp--preset--color--tertiary)"
-				},
-				"spacing": {
-					"padding": {
-						"left": "1.5em"
-					}
-				}
-			},
 			"core/pullquote": {
 				"border": {
 					"color": "var(--wp--preset--color--primary)",
@@ -444,6 +434,17 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--heading-3)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings--large)"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"width": "1px",
+					"color": "var(--wp--preset--color--tertiary)"
+				},
+				"spacing": {
+					"padding": {
+						"left": "1.5em"
+					}
 				}
 			},
 			"core/site-tagline": {
@@ -501,7 +502,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--heading-1)",
 					"fontWeight": "600",
-					"letterSpacing": "var(--wp--custom--typography--letter-spacing--heading)",
+					"letterSpacing": "var(--wp--custom--typography--letter-spacing--gigantic)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings--large)"
 				}
 			},
@@ -558,7 +559,7 @@
 					"fontSize": "var(--wp--preset--font-size--heading-5)",
 					"fontWeight": "600",
 					"letterSpacing": "var(--wp--custom--typography--letter-spacing--heading)",
-					"lineHeight": "var(--wp--custom--typography--line-height--headings--large)"
+					"lineHeight": "var(--wp--custom--typography--line-height--headings--small)"
 				}
 			},
 			"h6": {
