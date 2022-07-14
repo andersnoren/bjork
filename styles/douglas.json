@@ -1,0 +1,89 @@
+{
+    "title": "Douglas",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#fff8e6",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#000",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#66635A",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#E5DECB",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#FFF",
+					"name": "Quaternary"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"letter-spacing": {
+					"body": "0",
+					"heading": "-0.01em"
+				}
+			}
+		}
+    },
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}

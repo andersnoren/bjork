@@ -1,0 +1,104 @@
+{
+    "title": "Murphy",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#FFF",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#111",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#c9aa67",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#999",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#333",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#222",
+					"name": "Quaternary"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"letter-spacing": {
+					"body": "0",
+					"heading": "0"
+				}
+			}
+		}
+    },
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400",
+					"letterSpacing": ".05em",
+					"textTransform": "uppercase"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-serif)"
+		}
+	}
+}

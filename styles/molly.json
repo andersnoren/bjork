@@ -1,0 +1,88 @@
+{
+    "title": "Molly",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#168446",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#EBA1C7",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#168446",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#168446",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#168446",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#fff",
+					"name": "Quaternary"
+				}
+			]
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "999px"
+				},
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		},
+		"typography": {
+			"fontWeight": "500"
+		}
+	}
+}

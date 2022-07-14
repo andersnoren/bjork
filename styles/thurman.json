@@ -1,0 +1,94 @@
+{
+    "title": "Thurman",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#f00",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#ffd401",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#f00",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#f00",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#f00",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#ffffff",
+					"name": "Quaternary"
+				}
+			]
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "999px"
+				},
+				"typography": {
+					"fontWeight": "800"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "uppercase"
+				}
+			}
+		},
+		"typography": {
+			"fontWeight": "500"
+		}
+	}
+}

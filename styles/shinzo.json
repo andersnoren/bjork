@@ -1,0 +1,89 @@
+{
+    "title": "Shinzo",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#BC002D",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#f9f9f9",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#BC002D",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#BC002D",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#BC002D",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#fff",
+					"name": "Quaternary"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"letter-spacing": {
+					"body": "-0.01em",
+					"heading": "0"
+				}
+			}
+		}
+    },
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}

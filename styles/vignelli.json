@@ -1,0 +1,78 @@
+{
+    "title": "Vignelli",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#1D201F",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFFFFF",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#F9423A",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#767676",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#e1e1e1",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#f9f9f9",
+					"name": "Quaternary"
+				}
+			]
+		}
+    },
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		},
+		"typography": {
+			"fontWeight": "500"
+		}
+	}
+}
