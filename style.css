@@ -326,6 +326,22 @@ h6.has-background,
 	font-size: var( --wp--preset--font-size--small );
 }
 
+/* Block: Pagination ------------------------- */
+
+.wp-block-query-pagination-numbers {
+	display: flex;
+	gap: .88em;
+}
+
+.wp-block-query-pagination .wp-block-query-pagination-previous-arrow { margin-right: .88em; }
+.wp-block-query-pagination .wp-block-query-pagination-next-arrow { margin-left: .88em; }
+
+@media ( max-width: 600px ) {
+	.wp-block-query-pagination-numbers:not(:only-child) {
+		display: none;
+	}
+}
+
 /* Block: Paragraph -------------------------- */
 
 .has-drop-cap:not(:focus):first-letter {
@@ -392,6 +408,20 @@ ol.wp-block-comment-template {
 }
 
 /* Block: Query Loop ------------------------- */
+
+.wp-block-post-template.is-flex-container, 
+.wp-block-query-loop.is-flex-container {
+	gap: var( --wp--custom--spacing--small );
+}
+
+@media (min-width: 600px) {
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li { width:calc( 50% - ( var( --wp--custom--spacing--small ) * ( 1 / 2 ) ) ); }
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-3 > li { width:calc( 33.33333% - ( var( --wp--custom--spacing--small ) * ( 2 / 3 ) )); }
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-4 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-4 > li { width:calc( 25% - ( var( --wp--custom--spacing--small ) * ( 3 / 4 ) ) ); }
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-5 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-5 > li { width:calc( 20% - ( var( --wp--custom--spacing--small ) * ( 4 / 5 ) ) ); }
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-6 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-6 > li { width: calc( 16.66667% - ( var( --wp--custom--spacing--small ) * ( 5 / 6 ) ) ); }
+}
+
 /* Block: Query Pagination ------------------- */
 
 .wp-block-query-pagination > .wp-block-query-pagination-next, 

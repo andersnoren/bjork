@@ -3,24 +3,31 @@
 
 	<!-- wp:post-template -->
 
-		<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
+	<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
-		<!-- wp:group {"style":{"spacing":{"blockGap":"0.25em","padding":{"bottom":"1em"},"margin":{"top":"0px","bottom":"0px"}}}} -->
-		<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-bottom:1em">
+	<!-- wp:group {"style":{"spacing":{"blockGap":"0.25em","padding":{"bottom":"1em"},"margin":{"top":"0px","bottom":"0px"}}}} -->
+	<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-bottom:1em">
 
-			<!-- wp:post-date {"isLink":"true","textColor":"primary","style":{"typography":{"fontWeight":"600"}}} /-->
+		<!-- wp:post-date {"isLink":"true","textColor":"primary","style":{"typography":{"fontWeight":"600"}}} /-->
 
-			<!-- wp:post-title {"isLink":true,"fontSize":"heading-5"} /-->
+		<!-- wp:post-title {"isLink":true,"fontSize":"heading-5"} /-->
 
-		</div>
-		<!-- /wp:group -->
-		
+	</div>
+	<!-- /wp:group -->
+
 	<!-- /wp:post-template -->
 
-	<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
-		<!-- wp:query-pagination-previous {"fontSize":"heading-6"} /-->
-		<!-- wp:query-pagination-next {"fontSize":"heading-6"} /-->
-	<!-- /wp:query-pagination -->
+	<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"3em","bottom":"1em"}}}} -->
+	<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:3em;padding-bottom:1em">
+		<!-- wp:query-pagination {"paginationArrow":"arrow","textColor":"primary","layout":{"type":"flex","justifyContent":"space-between"}} -->
+		<!-- wp:query-pagination-previous {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} /-->
+
+		<!-- wp:query-pagination-numbers {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} /-->
+
+		<!-- wp:query-pagination-next {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} /-->
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:group -->
 
 </div>
 <!-- /wp:query -->
