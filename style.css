@@ -296,26 +296,6 @@ h6.has-background,
 	margin-left: var( --wp--custom--spacing--baseline ); 
 }
 
-/* Block: Heading ---------------------------- */
-
-.wp-block-post-content h1:not([style*="margin-top"]):not(:first-child),
-.wp-block-post-content h2:not([style*="margin-top"]):not(:first-child),
-.wp-block-post-content h3:not([style*="margin-top"]):not(:first-child),
-.wp-block-post-content h4:not([style*="margin-top"]):not(:first-child),
-.wp-block-post-content h5:not([style*="margin-top"]):not(:first-child),
-.wp-block-post-content h6:not([style*="margin-top"]):not(:first-child) {
-	margin-top: 1em !important;
-}
-
-.wp-block-post-content h1:not([style*="margin-bottom"]):not(:last-child),
-.wp-block-post-content h2:not([style*="margin-bottom"]):not(:last-child),
-.wp-block-post-content h3:not([style*="margin-bottom"]):not(:last-child),
-.wp-block-post-content h4:not([style*="margin-bottom"]):not(:last-child),
-.wp-block-post-content h5:not([style*="margin-bottom"]):not(:last-child),
-.wp-block-post-content h6:not([style*="margin-bottom"]):not(:last-child) {
-	margin-bottom: .75em !important;
-}
-
 /* Block: Navigation ------------------------- */
 
 .wp-block-navigation__responsive-container.is-menu-open { 
@@ -382,7 +362,6 @@ ol.wp-block-comment-template {
 
 .wp-block-post-featured-image img {
 	border-radius: 8px;
-	display: block;
 }
 
 /* Block: Post Navigation -------------------- */
