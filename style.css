@@ -242,6 +242,13 @@ h6.has-background,
 
 /* TEMPLATE PART: SIDEBAR */
 
+.site-sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: calc( 100vh - ( var( --wp--custom--spacing--outer ) * 2 ) );
+}
+
 :root:not(.editor-styles-wrapper) .site-sidebar {
 	position: sticky;
 		top: var( --wp--custom--spacing--outer );
