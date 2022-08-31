@@ -322,7 +322,7 @@
 				},
 				{
 					"slug": "heading-1",
-					"size": "clamp(36px, 4.444vw, 64px)",
+					"size": "clamp(36px, 4.444vw, 64px )",
 					"name": "Heading 1"
 				},
 				{
