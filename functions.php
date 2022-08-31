@@ -72,3 +72,30 @@ function bjork_register_block_patterns() {
 
 }
 add_action( 'init', 'bjork_register_block_patterns' );
+
+
+/*	-----------------------------------------------------------------------------------------------
+	BLOCK STYLES
+	Register theme specific block styles.
+--------------------------------------------------------------------------------------------------- */
+
+if ( ! function_exists( 'bjork_register_block_styles' ) ) :
+	function bjork_register_block_styles() {
+
+		if ( ! function_exists( 'register_block_style' ) ) return;
+
+		// Separator: Angled Separator
+		register_block_style( 'core/separator', array(
+			'name'  	=> 'bjork-angled-separator',
+			'label' 	=> esc_html__( 'Angled', 'bjork' ),
+		) );
+
+		// Separator: Angled Separator Wide
+		register_block_style( 'core/separator', array(
+			'name'  	=> 'bjork-angled-separator-wide',
+			'label' 	=> esc_html__( 'Angled Wide', 'bjork' ),
+		) );
+		
+	}
+	add_action( 'init', 'bjork_register_block_styles' );
+endif;

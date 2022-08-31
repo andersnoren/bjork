@@ -211,12 +211,12 @@
 		"custom": {
 			"spacing": {
 				"baseline": "16px",
-				"small": "min(32px, 6.4vw)",
+				"small": "min(48px, 6.4vw)",
 				"gap": {
 					"horizontal": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 2.222vw, calc( 2 * var( --wp--custom--spacing--baseline ) ) )",
 					"vertical": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 3.333vw, calc( 3 * var( --wp--custom--spacing--baseline ) ) )"
 				},
-				"gutter": "clamp( calc( 2 * var( --wp--custom--spacing--baseline ) ), 8.533333333vw, calc( 4 * var( --wp--custom--spacing--baseline ) ) )",
+				"gutter": "clamp( calc( 2 * var( --wp--custom--spacing--baseline ) ), 6.666vw, calc( 4 * var( --wp--custom--spacing--baseline ) ) )",
 				"outer": "var( --wp--custom--spacing--gutter )"
 			},
 			"typography": {
@@ -237,7 +237,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "720px",
 			"wideSize": "1680px"
 		},
 		"spacing": {
@@ -603,12 +603,12 @@
 	},
 	"templateParts": [
 		{
-			"title": "Header",
+			"title": "Header (Mobile)",
 			"name": "header",
 			"area": "header"
 		},
 		{
-			"title": "Sidebar",
+			"title": "Sidebar (Desktop)",
 			"name": "sidebar",
 			"area": "uncategorized"
 		},
