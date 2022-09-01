@@ -211,7 +211,7 @@
 		"custom": {
 			"spacing": {
 				"baseline": "16px",
-				"small": "min(48px, 6.4vw)",
+				"small": "min(32px, 6.4vw)",
 				"gap": {
 					"horizontal": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 2.222vw, calc( 2 * var( --wp--custom--spacing--baseline ) ) )",
 					"vertical": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 3.333vw, calc( 3 * var( --wp--custom--spacing--baseline ) ) )"
@@ -347,7 +347,7 @@
 				},
 				{
 					"slug": "heading-6",
-					"size": "clamp(21px, 1.666vw, 24px)",
+					"size": "clamp(21px, 1.666vw, 27px)",
 					"name": "Heading 6"
 				}
 			]
@@ -620,6 +620,11 @@
 		{
 			"title": "Loop",
 			"name": "loop",
+			"area": "uncategorized"
+		},
+		{
+			"title": "Comments",
+			"name": "comments",
 			"area": "uncategorized"
 		}
 	]
