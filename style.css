@@ -3,8 +3,8 @@
 	Theme Name: Björk
     Text Domain: bjork
 	Version: 0.1
-	Description: 
-	Tags: blog, portfolio, grid-layout, one-column, two-columns, three-columns, four-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
+	Description: Björk is a simple, clean and fast block theme for blogs and personal websites. It features a sticky sidebar menu on desktop for quick and easy navigation, and the minimal design puts your content front and center. Björk comes with five different theme styles to choose from, and over 20 different block patterns that you can use to quickly build unique page layouts.
+	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
 	Theme URI: https://andersnoren.se/teman/bjork-wordpress-theme/
@@ -248,7 +248,7 @@ p.has-background {
 /* TEMPLATE PART: HEADER */
 
 @media ( min-width: 782px ) {
-	.site-header { display: none !important; }
+	:root:not(.editor-styles-wrapper) .site-header { display: none !important; }
 }
 
 /* TEMPLATE PART: SIDEBAR */
@@ -270,7 +270,7 @@ p.has-background {
 }
 
 @media ( max-width: 781px ) {
-	.site-sidebar-col { display: none !important; }
+	:root:not(.editor-styles-wrapper) .site-sidebar-col { display: none !important; }
 }
 
 /* TEMPLATE PART: FOOTER */

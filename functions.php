@@ -37,26 +37,11 @@ function bjork_register_block_patterns() {
 
 	// The block pattern categories included in Björk.
 	$bjork_block_pattern_categories = apply_filters( 'bjork_block_pattern_categories', array(
-		'bjork-blog' => array(
-			'label'			=> esc_html__( 'Björk Blog', 'bjork' ),
-		),
 		'bjork-cta'  => array(
 			'label'			=> esc_html__( 'Björk Call to Action', 'bjork' ),
 		),
-		'bjork-footer' => array(
-			'label'			=> esc_html__( 'Björk Footer', 'bjork' ),
-		),
 		'bjork-general' => array(
 			'label'			=> esc_html__( 'Björk General', 'bjork' ),
-		),
-		'bjork-header' => array(
-			'label'			=> esc_html__( 'Björk Header', 'bjork' ),
-		),
-		'bjork-hero' => array(
-			'label'			=> esc_html__( 'Björk Hero', 'bjork' ),
-		),
-		'bjork-portfolio' => array(
-			'label'			=> esc_html__( 'Björk Portfolio', 'bjork' ),
 		),
 	) );
 
