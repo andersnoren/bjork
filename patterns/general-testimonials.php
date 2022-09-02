@@ -15,7 +15,7 @@
 			<!-- wp:image {"align":"center","width":100,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 			<div class="wp-block-image is-style-rounded">
 				<figure class="aligncenter size-full is-resized"><img
-						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/avatar-1.png"
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/avatar.png"
 						alt="" width="100" /></figure>
 			</div>
 			<!-- /wp:image -->
@@ -51,7 +51,7 @@
 			<!-- wp:image {"align":"center","width":100,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 			<div class="wp-block-image is-style-rounded">
 				<figure class="aligncenter size-full is-resized"><img
-						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/avatar-2.png"
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/avatar.png"
 						alt="" width="100" /></figure>
 			</div>
 			<!-- /wp:image -->

@@ -27,7 +27,7 @@ Albert Sans font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Albert+Sans/
 
-All illustrations and icons in the theme files and screenshot.png by Anders Norén
+All illustrations in the theme files and screenshot.png by Anders Norén
 License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.0/
 
 
