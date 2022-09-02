@@ -37,6 +37,9 @@ function bjork_register_block_patterns() {
 
 	// The block pattern categories included in Björk.
 	$bjork_block_pattern_categories = apply_filters( 'bjork_block_pattern_categories', array(
+		'bjork-blog'  => array(
+			'label'			=> esc_html__( 'Björk Blog', 'bjork' ),
+		),
 		'bjork-cta'  => array(
 			'label'			=> esc_html__( 'Björk Call to Action', 'bjork' ),
 		),
