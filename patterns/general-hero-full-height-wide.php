@@ -11,8 +11,8 @@
 		aria-hidden="true"
 		class="wp-block-cover__background has-quaternary-background-color has-background-dim-0 has-background-dim"></span>
 	<div class="wp-block-cover__inner-container">
-		<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0vh","top":"0vh"},"blockGap":"2rem"}}} -->
-		<div class="wp-block-group alignwide" style="padding-top:0vh;padding-bottom:0vh">
+		<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0vh","top":"0vh"},"blockGap":"2rem"}},"textColor":"foreground"} -->
+		<div class="wp-block-group alignwide has-foreground-color has-text-color" style="padding-top:0vh;padding-bottom:0vh">
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"secondary","fontSize":"extra-large"} -->
 			<h1 class="has-secondary-color has-text-color has-extra-large-font-size" style="margin-top:0px">Hi there!
 			</h1>
@@ -28,8 +28,8 @@
 				<div class="wp-block-button"><a class="wp-block-button__link">Get In Touch</a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link">About Me</a></div>
+				<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color">About Me</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

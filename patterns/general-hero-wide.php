@@ -5,8 +5,8 @@
  * Categories: bjork-general
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"5vh","top":"0vh"}}}} -->
-<div class="wp-block-group alignwide" style="padding-top:0vh;padding-bottom:5vh">
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"5vh","top":"0vh"}}},"textColor":"foreground"} -->
+<div class="wp-block-group alignwide has-foreground-color has-text-color" style="padding-top:0vh;padding-bottom:5vh">
 	<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"secondary","fontSize":"extra-large"} -->
 	<h1 class="has-secondary-color has-text-color has-extra-large-font-size" style="margin-top:0px">Hi there!</h1>
 	<!-- /wp:heading -->
@@ -21,8 +21,8 @@
 		<div class="wp-block-button"><a class="wp-block-button__link">Get In Touch</a></div>
 		<!-- /wp:button -->
 
-		<!-- wp:button {"className":"is-style-outline"} -->
-		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link">About Me</a></div>
+		<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color">About Me</a></div>
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->

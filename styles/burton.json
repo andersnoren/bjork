@@ -1,5 +1,5 @@
 {
-    "title": "Default Inverted",
+    "title": "Burton",
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings": {
@@ -7,32 +7,32 @@
 			"palette": [
 				{
 					"slug": "foreground",
-					"color": "#1D201F",
+					"color": "#FFF",
 					"name": "Foreground"
 				},
 				{
 					"slug": "background",
-					"color": "#FFFFFF",
+					"color": "#2C2C2C",
 					"name": "Background"
 				},
 				{
 					"slug": "primary",
-					"color": "#FFDE0D",
+					"color": "#FF502D",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#777979",
+					"color": "#AAA",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#E4E4E4",
+					"color": "#555",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "quaternary",
-					"color": "#F4F4F4",
+					"color": "#444",
 					"name": "Quaternary"
 				}
 			]

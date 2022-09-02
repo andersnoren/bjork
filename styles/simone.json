@@ -1,0 +1,53 @@
+{
+    "title": "Simone",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#E83E22",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#F7CECE",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#E83E22",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#E83E22",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#E83E22",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#FFF",
+					"name": "Quaternary"
+				}
+			]
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"color": {
+					"text": "var(--wp--preset--color--quaternary)"
+				},
+				"typography": {
+					"textTransform": "uppercase"
+				}
+			}
+		}
+	}
+}

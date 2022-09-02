@@ -1,5 +1,5 @@
 {
-    "title": "Shinzo",
+    "title": "Clayton",
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings": {
@@ -7,32 +7,32 @@
 			"palette": [
 				{
 					"slug": "foreground",
-					"color": "#BC002D",
+					"color": "#202021",
 					"name": "Foreground"
 				},
 				{
 					"slug": "background",
-					"color": "#f9f9f9",
+					"color": "#FFF",
 					"name": "Background"
 				},
 				{
 					"slug": "primary",
-					"color": "#BC002D",
+					"color": "#105AFE",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#BC002D",
+					"color": "#635F5A",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#BC002D",
+					"color": "#E2E2E2",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "quaternary",
-					"color": "#fff",
+					"color": "#F3F2F2",
 					"name": "Quaternary"
 				}
 			]
@@ -40,50 +40,64 @@
 		"custom": {
 			"typography": {
 				"letter-spacing": {
-					"body": "-0.01em",
-					"heading": "0"
+					"body": "0",
+					"heading": "0",
+					"gigantic": "0"
 				}
 			}
 		}
     },
 	"styles": {
+		"blocks": {
+			"core/button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--default)",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400"
+				}
+			}
+		},
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
-					"fontWeight": "600"
+					"fontWeight": "400"
 				}
 			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-serif)",
+			"fontWeight": "400"
 		}
 	}
 }

@@ -476,7 +476,7 @@
 				"typography": {
 					"fontFamily": "inherit",
 					"fontStyle": "inherit",
-					"fontWeight": "inherit",
+					"fontWeight": "600",
 					"textTransform": "inherit"
 				}
 			},

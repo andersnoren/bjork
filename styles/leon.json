@@ -1,0 +1,41 @@
+{
+    "title": "Léon",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#0C314B",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFF",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#0C314B",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#0C314B",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#CED6DB",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#E7EAED",
+					"name": "Quaternary"
+				}
+			]
+		}
+    }
+}

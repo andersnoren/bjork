@@ -3,7 +3,7 @@
 	Theme Name: Björk
     Text Domain: bjork
 	Version: 0.1
-	Description: Björk is a simple, clean and fast block theme for blogs and personal websites. It features a sticky sidebar menu on desktop for quick and easy navigation, and the minimal design puts your content front and center. Björk comes with five different theme styles to choose from, and over 20 different block patterns that you can use to quickly build unique page layouts.
+	Description: Björk is a simple, clean and fast block theme for blogs and personal websites. It features a sticky sidebar menu on desktop for quick and easy navigation, and the minimal design puts your content front and center. Björk comes with seven different theme styles to choose from, and over 20 different block patterns that you can use to quickly build unique page layouts.
 	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
@@ -292,12 +292,6 @@ p.has-background {
 }
 
 /* Block: Buttons ---------------------------- */
-
-.is-style-outline>.wp-block-button__link:not(.has-text-color), 
-.wp-block-button__link.is-style-outline:not(.has-text-color) {
-	color: var( --wp--preset--color--primary );
-}
-
 /* Block: Calendar --------------------------- */
 
 .wp-block-calendar table caption,
