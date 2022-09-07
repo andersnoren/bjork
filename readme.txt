@@ -33,5 +33,14 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
-Version 0.1 (2022-XX-XX)
+Version 0.1.2 (2022-09-07)
+-------------------------
+- Changed the loop.html template part to use the blog-grid-cols-2.php pattern by default, matching the demo site.
+
+Version 0.1.1 (2022-09-02)
+-------------------------
+- Fixed the height of the sidebar being incorrect when the user admin bar is displayed (thanks, @JeroenRotty).
+- Adjusted the theme description.
+
+Version 0.1 (2022-09-02)
 -------------------------
