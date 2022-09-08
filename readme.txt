@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.2 (2022-09-08)
+-------------------------
+- Removed a leftover line of CSS targeting the button in the Search Form block.
+
 Version 0.1.1 (2022-09-07)
 -------------------------
 - Changed the loop.html template part to use the blog-grid-cols-2.php pattern by default, matching the demo site.
