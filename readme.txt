@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.5 (2022-09-09)
+-------------------------
+- Updated Albert Sans to use woff2 files, reducing file size and fixing font weight display in Firefox.
+
 Version 0.1.4 (2022-09-09)
 -------------------------
 - Another stab at the blockGap issue, now by removing spaces around the values inside var() which seem to trip up Gutenberg.

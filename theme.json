@@ -257,14 +257,14 @@
 							"fontWeight": "100 900",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/AlbertSans-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/AlbertSans-VariableFont_wght.woff2" ]
 						},
 						{
 							"fontFamily": "Albert Sans",
 							"fontWeight": "100 900",
 							"fontStyle": "italic",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/AlbertSans-Italic-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/AlbertSans-Italic-VariableFont_wght.woff2" ]
 						}
 					]
 				},
