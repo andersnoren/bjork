@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.3 (2022-09-09)
+-------------------------
+- Fixed a blockGap issue causing missing gutters in columns when running the Gutenberg plugin.
+
 Version 0.1.2 (2022-09-08)
 -------------------------
 - Removed a leftover line of CSS targeting the button in the Search Form block.
