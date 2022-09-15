@@ -33,6 +33,11 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.6 (2022-09-15)
+-------------------------
+- Updated theme description in style.css with a link to the demo site.
+- Set inputs to -webkit-appearance: none, fixing button display in iOS.
+
 Version 0.1.5 (2022-09-09)
 -------------------------
 - Updated Albert Sans to use woff2 files, reducing file size and fixing font weight display in Firefox.
