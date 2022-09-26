@@ -33,6 +33,11 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.7 (2022-09-26)
+-------------------------
+- Cleaned up style.css.
+- Updated inputs to only have buttons be set to -webkit-appearance: none, fixing checkboxes (thanks, Stanislav).
+
 Version 0.1.6 (2022-09-15)
 -------------------------
 - Updated theme description in style.css with a link to the demo site.

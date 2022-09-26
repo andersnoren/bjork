@@ -2,7 +2,7 @@
 
 	Theme Name: Björk
     Text Domain: bjork
-	Version: 0.1.6
+	Version: 0.1.7
 	Description: Björk is a minimal theme for blogs and personal websites. It features a sticky sidebar menu on desktop for quick and easy navigation, and the clean design puts your content front and center. Björk comes with seven different theme styles to choose from, and over 15 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/bjork/
 	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
@@ -18,21 +18,10 @@
 
 /* --------------------------------------------------------------------------------------------- */
 
-/*
- * Font smoothing.
- * This is a niche setting that will not be available via Global Styles.
- * https://github.com/WordPress/gutenberg/issues/35934
- */
-
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
-
-/*
- * Link styles. Necessary until the following issue is resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/27075
- */
 
 a {
 	text-decoration-thickness: 1px;
@@ -58,7 +47,6 @@ input, textarea, select, button {
 	font-size: inherit;
 	letter-spacing: inherit;
 	margin: 0;
-	-webkit-appearance: none;
 }
 
 input, textarea, select {
@@ -76,6 +64,27 @@ label {
 	font-weight: 500;
 }
 
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var( --wp--preset--color--primary );
+	border: none;
+	border-radius: 0;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	letter-spacing: inherit;
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+	-webkit-appearance: none;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover,
+.wp-block-button__link:visited {
+	color: var( --wp--preset--color--background );
+}
+
 /* Figure Styles */
 
 figure {
@@ -90,22 +99,7 @@ figcaption {
 	font-size: var( --wp--preset--font-size--small );
 }
 
-/*
- * Button hover styles. Necessary until the following issue is resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/27075
- */
-
-.wp-block-file .wp-block-file__button:hover,
-.wp-block-button__link:hover,
-.wp-block-button__link:visited {
-	color: var( --wp--preset--color--background );
-}
-
-/*
- * Alignment styles. Relevant issues:
- * https://github.com/WordPress/gutenberg/issues/35607
- * https://github.com/WordPress/gutenberg/issues/35884
- */
+/* Alignment styles */
 
 .wp-site-blocks,
 body>.is-root-container,
@@ -133,7 +127,6 @@ body>.is-root-container>.wp-block-template-part>.wp-block-cover,
 }
 
 @media ( min-width: 781px ) {
-
 	.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
 	.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
 	.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
@@ -142,28 +135,6 @@ body>.is-root-container>.wp-block-template-part>.wp-block-cover,
 		margin-right: auto !important;
 		width: inherit;
 	}
-
-}
-
-/*
- * Search and File Block button styles.
- * Necessary until the following issues are resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/36444
- * https://github.com/WordPress/gutenberg/issues/27760
- */
-
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-.wp-block-search__button,
-.wp-block-file .wp-block-file__button {
-	background-color: var( --wp--preset--color--primary );
-	border: none;
-	border-radius: 0;
-	color: var(--wp--preset--color--background);
-	font-size: var(--wp--preset--font-size--medium);
-	letter-spacing: inherit;
-	padding: calc(.667em + 2px) calc(1.333em + 2px);
 }
 
 /* Editor Post Title */
@@ -213,7 +184,7 @@ p.has-background {
 	line-height: var( --wp--custom--typography--line-height--body );
 }
 
-/* Text Decoration --------------------------- */
+/* Text Decoration */
 
 #cancel-comment-reply-link,
 .wp-block-comment-edit-link a,
@@ -245,6 +216,7 @@ p.has-background {
 /* ------------------------------------------- */
 /* Template Parts
 /* ------------------------------------------- */
+
 
 /* TEMPLATE PART: HEADER */
 
