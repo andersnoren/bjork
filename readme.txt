@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.8 (2022-09-27)
+-------------------------
+- Updated <!-- wp:template-part --/> to omit the "theme":"bjork" code, fixing issues when modifying template parts in child themes (thanks, @janboddez).
+
 Version 0.1.7 (2022-09-26)
 -------------------------
 - Cleaned up style.css.
