@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.9 (2022-09-28)
+-------------------------
+- Added the `left-sidebar` style.css theme tag (thanks, Justin).
+
 Version 0.1.8 (2022-09-27)
 -------------------------
 - Updated <!-- wp:template-part --/> to omit the "theme":"bjork" code, fixing issues when modifying template parts in child themes (thanks, @janboddez).
