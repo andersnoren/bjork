@@ -33,6 +33,10 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.1.10 (2022-10-07)
+-------------------------
+- Removed index.php, since it's no longer needed to pass the WordPress.org automatic theme review.
+
 Version 0.1.9 (2022-09-28)
 -------------------------
 - Added the `left-sidebar` style.css theme tag (thanks, Justin).
