@@ -588,6 +588,25 @@
 				"color": {
 					"text": "inherit"
 				}
+			},
+			"button": {
+				"border": {
+					"width": "2px",
+					"color": "var(--wp--preset--color--primary)",
+					"style": "solid"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)",
+						"background": "var(--wp--preset--color--background)"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)",
+						"background": "var(--wp--preset--color--background)"
+					}
+				}
 			}
 		},
 		"spacing": {
