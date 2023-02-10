@@ -1,29 +1,134 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header","layout":{"inherit":true}} /-->
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
-<div class="wp-block-group">
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0px"}}}} -->
-	<div class="wp-block-columns alignwide" style="margin-bottom:0px">
-		<!-- wp:column {"width":"23%","className":"site-sidebar-col"} -->
-		<div class="wp-block-column site-sidebar-col" style="flex-basis:23%">
-			<!-- wp:template-part {"slug":"sidebar","tagName":"aside","className":"site-sidebar"} /-->
-		</div>
-		<!-- /wp:column -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0px"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-bottom:0px"><!-- wp:column {"width":"23%","className":"site-sidebar-col"} -->
+<div class="wp-block-column site-sidebar-col" style="flex-basis:23%"><!-- wp:template-part {"slug":"sidebar","tagName":"aside","className":"site-sidebar"} /--></div>
+<!-- /wp:column -->
 
-		<!-- wp:column {"width":"77%"} -->
-		<div class="wp-block-column" style="flex-basis:77%">
-			<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
-			<main class="wp-block-group">
-				
-				<!-- wp:pattern {"slug":"bjork/general-demo-content"} /-->
+<!-- wp:column {"width":"77%"} -->
+<div class="wp-block-column" style="flex-basis:77%"><!-- wp:group {"tagName":"main","layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:cover {"dimRatio":0,"overlayColor":"quaternary","minHeight":90,"minHeightUnit":"vh","isDark":false,"align":"wide","style":{"spacing":{"padding":{"top":"0vh","right":"0vh","bottom":"0vh","left":"0vh"}}}} -->
+<div class="wp-block-cover alignwide is-light" style="padding-top:0vh;padding-right:0vh;padding-bottom:0vh;padding-left:0vh;min-height:90vh"><span aria-hidden="true" class="wp-block-cover__background has-quaternary-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0vh","top":"0vh"},"blockGap":"2rem"}},"textColor":"foreground"} -->
+<div class="wp-block-group alignwide has-foreground-color has-text-color" style="padding-top:0vh;padding-bottom:0vh"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"secondary","fontSize":"extra-large"} -->
+<h1 class="has-secondary-color has-text-color has-extra-large-font-size" style="margin-top:0px">Hi there!
+			</h1>
+<!-- /wp:heading -->
 
-			</main>
-			<!-- /wp:group -->
+<!-- wp:heading {"level":1} -->
+<h1>My name is Björk, and I am a podcaster and writer. This is my little corner on the web.</h1>
+<!-- /wp:heading -->
 
-			<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-</div>
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"1em"}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"style":{"color":[]}} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get In Touch</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">About Me</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:separator {"backgroundColor":"tertiary","className":"is-style-bjork-angled-separator-wide"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-bjork-angled-separator-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"5vh","bottom":"5vh"}}}} -->
+<div class="wp-block-columns alignwide" style="padding-top:5vh;padding-bottom:5vh"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+			ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"1em"}}} -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+			aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+		</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
+<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background"><!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
+<figure class="wp-block-image has-custom-border"><img src="http://localhost:8888/utsikt/wp-content/themes/bjork/assets/images/illustrations/feature-1.png" alt="" style="border-radius:0px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"1.5rem"}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"textAlign":"left","level":6,"style":{"typography":{"lineHeight":"1"}}} -->
+<h6 class="has-text-align-left" id="my-story" style="line-height:1">My Story</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"left","fontSize":"small"} -->
+<p class="has-text-align-left has-small-font-size">Learn how I became an artist, and how I developed this
+				particular style.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","fontSize":"tiny"} -->
+<div class="wp-block-button has-custom-font-size has-tiny-font-size"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button" href="#">Read
+						More</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
+<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background"><!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
+<figure class="wp-block-image has-custom-border"><img src="http://localhost:8888/utsikt/wp-content/themes/bjork/assets/images/illustrations/feature-2.png" alt="" style="border-radius:0px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"textAlign":"left","level":6,"style":{"typography":{"lineHeight":"1"}}} -->
+<h6 class="has-text-align-left" id="my-story" style="line-height:1">Reach Out</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"left","fontSize":"small"} -->
+<p class="has-text-align-left has-small-font-size">Want to show my art in your gallery? Send me an email and
+				we'll chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","fontSize":"tiny"} -->
+<div class="wp-block-button has-custom-font-size has-tiny-font-size"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button" href="#">Contact
+						Me</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
+<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background"><!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
+<figure class="wp-block-image has-custom-border"><img src="http://localhost:8888/utsikt/wp-content/themes/bjork/assets/images/illustrations/feature-3.png" alt="" style="border-radius:0px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"textAlign":"left","level":6,"style":{"typography":{"lineHeight":"1"}}} -->
+<h6 class="has-text-align-left" id="my-story" style="line-height:1">Get Social</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"left","fontSize":"small"} -->
+<p class="has-text-align-left has-small-font-size">Love my work? Follow me online to see new paintings
+				first.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","fontSize":"tiny"} -->
+<div class="wp-block-button has-custom-font-size has-tiny-font-size"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button" href="#">Follow
+						Me</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
