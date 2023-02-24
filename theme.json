@@ -281,6 +281,11 @@
 					"name": "8",
 					"size": "clamp( 64px, 6.666vw, 96px )",
 					"slug": "80"
+				},
+				{
+					"name": "Body Margin",
+					"size": "clamp( 32px, 5vw, 64px )",
+					"slug": "body-gutter"
 				}
 			],
 			"units": [
@@ -792,10 +797,10 @@
 		"spacing": {
 			"blockGap": "min(32px, 6.4vw)",
 			"padding": {
-				"bottom": "var(--wp--preset--spacing--70)",
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)",
-				"top": "var(--wp--preset--spacing--70)"
+				"bottom": "var(--wp--preset--spacing--body-gutter)",
+				"left": "var(--wp--preset--spacing--body-gutter)",
+				"right": "var(--wp--preset--spacing--body-gutter)",
+				"top": "var(--wp--preset--spacing--body-gutter)"
 			}
 		},
 		"typography": {

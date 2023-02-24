@@ -9,10 +9,12 @@
 <div class="wp-block-columns alignwide">
 	<!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
 	<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background">
-		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
-		<figure class="wp-block-image" style="border-radius:0px"><img
+		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
+		<figure class="wp-block-image has-custom-border"><img
 				src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/feature-1.png"
-				alt="" /></figure>
+				alt=""
+				style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px" />
+		</figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"1.5rem"}},"backgroundColor":"quaternary"} -->
@@ -43,10 +45,12 @@
 
 	<!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
 	<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background">
-		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
-		<figure class="wp-block-image" style="border-radius:0px"><img
+		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
+		<figure class="wp-block-image has-custom-border"><img
 				src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/feature-2.png"
-				alt="" /></figure>
+				alt=""
+				style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px" />
+		</figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
@@ -77,10 +81,12 @@
 
 	<!-- wp:column {"backgroundColor":"quaternary","textColor":"foreground"} -->
 	<div class="wp-block-column has-foreground-color has-quaternary-background-color has-text-color has-background">
-		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":"0px"}}} -->
-		<figure class="wp-block-image" style="border-radius:0px"><img
+		<!-- wp:image {"linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
+		<figure class="wp-block-image has-custom-border"><img
 				src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/illustrations/feature-3.png"
-				alt="" /></figure>
+				alt=""
+				style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px" />
+		</figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->

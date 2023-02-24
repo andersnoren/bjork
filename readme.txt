@@ -33,6 +33,11 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 == Changelog ==
 
+Version 0.2.1 (2023-02-24)
+-------------------------
+- Fixed local files being referenced in frontpage.html.
+- Fixed the body margin being different in 0.2.
+
 Version 0.2 (2023-02-10)
 -------------------------
 - Added WordPress 6.1 support.
