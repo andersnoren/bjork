@@ -5,11 +5,7 @@
 --------------------------------------------------------------------------------------------------- */
 
 function bjork_setup() {
-
-	add_theme_support( 'wp-block-styles' );
-
 	add_editor_style( 'style.css' );
-
 }
 add_action( 'after_setup_theme', 'bjork_setup' );
 
@@ -19,9 +15,7 @@ add_action( 'after_setup_theme', 'bjork_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function bjork_styles() {
-
 	wp_enqueue_style( 'bjork-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'bjork' )->get( 'Version' ) );
-
 }
 add_action( 'wp_enqueue_scripts', 'bjork_styles' );
 

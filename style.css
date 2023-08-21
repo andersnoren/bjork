@@ -2,7 +2,7 @@
 
 	Theme Name: Björk
     Text Domain: bjork
-	Version: 0.2.1
+	Version: 0.2.2
 	Description: Björk is a minimal theme for blogs and personal websites. It features a sticky sidebar menu on desktop for quick and easy navigation, and the clean design puts your content front and center. Björk comes with seven different theme styles to choose from, and over 15 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/bjork/
 	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, left-sidebar
 	Author: Anders Norén
@@ -11,7 +11,7 @@
 	License: GNU General Public License version 2.0
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Requires PHP: 5.6
-	Tested up to: 6.1
+	Tested up to: 6.3
 
 	All files, unless otherwise stated, are released under the GNU General Public License
 	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
@@ -50,12 +50,6 @@ input, textarea, select {
 label {
 	font-size: var( --wp--preset--font-size--small );
 	font-weight: 500;
-}
-
-/* Figure Styles */
-
-figure {
-	margin: 0;
 }
 
 /* Editor Post Title */
