@@ -3,7 +3,7 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.2
 Requires PHP: 5.6
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,12 @@ License: Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.
 
 
 == Changelog ==
+
+Version 0.2.4 (2024-10-21)
+-------------------------
+- Improved styling of footnotes.
+- Bumped copyright year in the footer to 2024.
+- Bumped "Tested up to" to 6.6.
 
 Version 0.2.3 (2024-05-03)
 -------------------------
