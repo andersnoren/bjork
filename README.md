@@ -25,4 +25,4 @@ Do you want to support the continued development of Björk? You can send me a Pa
 
 ## Resources
 - [About Björk](https://andersnoren.se/teman/bjork-wordpress-theme/)
-- [Björk demo site](https://andersnoren.se/themes/bjork/)
+- [Björk demo site](https://bjork.andersnoren.se)
